@@ -1,2 +1,1 @@
-# persongalleri
-persongalleri
+# tema7

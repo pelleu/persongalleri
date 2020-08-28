@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Persongalleri</title>
+    <link rel="stylesheet" href="">
+</head>
+
+<body>
+
+    <h1> TJEK LIGE DE HER RANDOM BILLEDER</h1>
+    <img src="random1.jpg" alt="billede1">
+    <button>NÆSTE</button>
+
+    <script>
+        let number;
+
+        let billeder = ["random1.jpg", "random2.jpg", "random3.jpg", "random4.jpg", "random5.jpg", "random6.jpg", "random7.jpg", "random8.jpg"];
+
+        const knap = document.querySelector("button");
+        knap.addEventListener("click", skiftBillede);
+
+        function skiftBillede() {
+            number++;
+            console.log(number);
+        }
+
+    </script>
+</body>
+
+</html>
