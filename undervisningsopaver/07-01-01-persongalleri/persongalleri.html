@@ -11,11 +11,12 @@
 <body>
 
     <h1> TJEK LIGE DE HER RANDOM BILLEDER</h1>
-    <img src="random1.jpg" alt="billede1">
+    <img src="random1.jpg" alt="billede 1">
     <button>NÆSTE</button>
 
     <script>
-        let number;
+        let number = 0;
+        const billede = document.querySelector("random");
 
         let billeder = ["random1.jpg", "random2.jpg", "random3.jpg", "random4.jpg", "random5.jpg", "random6.jpg", "random7.jpg", "random8.jpg"];
 
@@ -24,7 +25,8 @@
 
         function skiftBillede() {
             number++;
-            console.log(number);
+            console.log(billeder[number]);
+            billede.src = "" [number];
         }
 
     </script>
